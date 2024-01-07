@@ -32,6 +32,4 @@ def create_qa_chain():
     chain = RetrievalQA.from_chain_type(llm=model, chain_type="stuff", retriever=retriever, input_key="query", return_source_documents=True, chain_type_kwargs=chain_type_kwargs)
     return chain
 
-if __name__ == 'app':
-    chain = create_qa_chain()
     
