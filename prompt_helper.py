@@ -9,7 +9,7 @@ from langchain.llms import GooglePalm
 load_dotenv()
 
 
-model = GooglePalm(google_api_key = os.environ['GOOGLE_API_KEY'], temperature = 0.1)
+model = GooglePalm(google_api_key = 'AIzaSyCVJRfW38eCG53eGlxi6mS5KIIdJu9pduk', temperature = 0.1)
 doc_embeddings = HuggingFaceInstructEmbeddings()
 vdb_path = 'db_index'
 
