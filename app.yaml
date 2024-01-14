@@ -1,0 +1,7 @@
+runtime: custom
+env: flex
+entrypoint: streamlit run app.py
+resources:
+  cpu: 4
+  memory_gb: 8
+  disk_size_gb: 25

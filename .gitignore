@@ -1,5 +1,0 @@
-# Ignore temporary files
-*.tmp
-
-# Ignore compiled Python files
-__pycache__/
